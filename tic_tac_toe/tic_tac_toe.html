@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>TicTacToe</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"></link>
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"></link>
+  <div class="container-fluid text-left">
+    <div class="header">
+      <h1> Welcome To My Game Room!<br/></h1>
+      <h1>Tic Tac Toe</h1>
+    </div>
+    <div class="controls">
+      <h1>Pick a side:</h1>
+      <h3>
+      <form action="#">
+        <input class="checkBox" type="checkbox" name="xPlayer" value= "X" />X Player
+        <input class="checkBox" type="checkbox" name="oPlayer" value= "O" />O Player
+      </form>
+      </h3>
+      <h5>Developer: John Pageler</h5>
+    </div>
+    <div>
+      <a href='#' class="btn btn-info" id="replay" onclick="startGame()">Rematch?</a>
+    </div>
+    <table>
+      <tr>
+        <td class="cell" id="0"></td>
+        <td class="cell" id="1"></td>
+        <td class="cell" id="2"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="3"></td>
+        <td class="cell" id="4"></td>
+        <td class="cell" id="5"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="6"></td>
+        <td class="cell" id="7"></td>
+        <td class="cell" id="8"></td>
+      </tr>
+    </table>
+    <div class="endgame">
+      <!-- Defines winner of the game -->
+      <div class="text"></div>
+    </div>
+  </div>
+<!-- 
+<div class="container">
+  <footer>
+    <p>I would like to thank the following resources for providing the free knowledge and information throughout this learning pursuit toward my goal of "Front End Certification," without which this path would be untraversable: FreeCodeCamp , mozilla MDN WEB DOCS, w3schools.com, stackoverflow.com, jquery.com, bootstrap.com. YouTube References:  FreeCodeCamp Instructors, Kudvenkat at PragimTech, CodingTutorials360, Mark Snow, Root Tech. "Visual Studio Code" YouTube References: Chris Johnson, LevelUpTuts. "GitHub" YouTube References: FreeCodeCamp Instructors, thenewboston. "Formspree.io" YouTube Reference: Prateep Gedupudi.</p>
+  </footer>
+</div> -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
