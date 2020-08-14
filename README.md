@@ -1,2 +1,2 @@
-# tic_tac_toe2
+# tic_tac_toe
 TicTacToe using Minimax Algorithm
